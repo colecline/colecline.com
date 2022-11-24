@@ -41,38 +41,3 @@ export default function HeaderComponent() {
 		</Disclosure>
 	);
 }
-
-// export default function HeaderComponent() {
-// 	return (
-// 		<Disclosure as="nav">
-// 			<div className="mx-auto max-w-7xl">
-// 				<div className="flex justify-between">
-
-// 					{/* Left Side of Navigation Bar */}
-// 					<div className="flex">
-// 						{/* Navigation Bar Logo/Title */}
-// 						<div>Logo</div>
-// 					</div>
-
-// 					{/* Right Side of Navigation Bar */}
-// 					<div className="ui-open:block ui-not-open:hidden sm:ui-not-open:flex">
-// 						{/* Navigation Bar Elements */}
-// 						<Link href="/about" className="block">
-// 							About
-// 						</Link>
-// 						<Link href="/projects" className="block">
-// 							Projects
-// 						</Link>
-// 						<Link href="/blog" className="block">
-// 							Blog
-// 						</Link>
-
-// 						{/* TODO: Social Media Buttons */}
-// 						{/* TODO: Toggle Dark/Light Mode Button */}
-// 					</div>
-// 					{/* // absolute inset-y-0 left-0 flex items-center sm:hidden */}
-// 				</div>
-// 			</div>
-// 		</Disclosure>
-// 	);
-// }
