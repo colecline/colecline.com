@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
 			<body className="bg-zinc-900 text-white">
 				<AnnouncementComponent />
 				<HeaderComponent />
-				<main className="mx-auto max-w-6xl">{children}</main>
+				<main className="mx-auto max-w-6xl px-4">{children}</main>
 			</body>
 		</html>
 	);
